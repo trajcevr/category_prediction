@@ -5,9 +5,6 @@ import re
 from collections import defaultdict
 from flask import Flask, request, jsonify
 
-
-from pyngrok import ngrok
-
 app = Flask(__name__)
 
 class WebsiteClassifier:
